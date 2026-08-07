@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo...</title>
+  <script>
+    // INTENTA ABRIR TU VIDEO PRIMERO
+    const miVideo = "https://youtu.be/TU-ENLACE";
+    const videoAficionado = "https://youtu.be/eBMfoNw-f6Y";
+    
+    // Intenta cargar tu video
+    window.location.replace(miVideo);
+    
+    // Si después de 3 segundos no ha cargado, va al del aficionado
+    setTimeout(function() {
+      window.location.replace(videoAficionado);
+    }, 3000);
+  </script>
+</head>
+<body>
+  <p>Redirigiendo al video...</p>
+</body>
+</html>
